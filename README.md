@@ -98,3 +98,6 @@ Outside of current errors and upon completion of the original plan for the app, 
 - The ability to allocate member profiles automatically to a Bacenta based on their location and view the specific members associated with specific Bacentas.
 - Ability to add Bacenta Leader profiles instead of being limited to just adding a Bacenta Leader's name. 
 - Ability to customise profiles more, including adding display pictures. 
+
+# Authors
+Ciarra Balsomo
