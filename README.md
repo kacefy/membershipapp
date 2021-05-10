@@ -1,7 +1,7 @@
 # MembershipApp
 A simple CRUD application for new church members to fill in so they can be allocated to the appropriate Bacenta according to their location.
 
-# Contents
+
 
 # Brief
 To create a CRUD application with the utilisation of supporting tools,
