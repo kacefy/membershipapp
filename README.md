@@ -63,4 +63,38 @@ Additionally, I would like to allow the member profile to:
 
 # Architecture
 
-## 
+Here is a link to the ERD diagram showing structure of the database and their relationship: https://lucid.app/lucidchart/bffac73f-37e0-46a8-b907-37e0d3c31054/edit?page=0_0#
+
+# Project tracking
+
+Trello was used for project tracking; here is a link to the board used: https://trello.com/b/Ri5K3gxR/membershipapp
+
+The Kanban board is designed so that the various elements of the project would move along the board from left to right as they are worked on and, eventually, completed. Each card under 'Backlog' is an epic containing the user story and associated tasks. 
+
+Each card is colour coded and tagged to easily identify what kind of element it is:
+- Mint green indicates a description under a Kanban list.
+- Blue represents a resource for the project.
+- Dark blue indicates the repository for the project.
+- Pink is used to mark the epics.
+
+The lists are as follows:
+- Resources: containing cards with quick links to resources for the project.
+- Backlog: containing epics, their enclosed user stories and tasks.
+- In-Progress: for epics for which work has begun with regards to completing tasks.
+- Testing: for epics which are being tested for functionality and ensure there are no errors.
+- Complete: for epics which have been completed fully and deemed functional, fulfilling the enclosed user story.
+
+# Risk assessment
+
+Here is the link to the risk assessment: https://docs.google.com/document/d/1UFgf_RAbaWMvV40Qa9zGVhCwoQOC2ELiXPGDvBrwLC0/edit
+
+# Known errors
+- App does not currently run as the MySQL database is failing to connect to the Azure server.
+
+# Future improvements
+Outside of current errors and upon completion of the original plan for the app, I would like to add more functionality as follows:
+- Ability to add/edit/delete Bacentas as well as just viewing the Bacenta details on the Bacentas page
+- Bacenta page CRUD features being accessed only by administrators rather than general users so the app could also benefit from user verification being added - this will also further mitigate risks of privacy/data breach. 
+- The ability to allocate member profiles automatically to a Bacenta based on their location and view the specific members associated with specific Bacentas.
+- Ability to add Bacenta Leader profiles instead of being limited to just adding a Bacenta Leader's name. 
+- Ability to customise profiles more, including adding display pictures. 
