@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.5" />
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
@@ -18,6 +19,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0-alpha.2" />
 >>>>>>> Stashed changes
+=======
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+>>>>>>> ae7c2fd89ece2bc30ef6a419283c7cb6bf6c7771
   </ItemGroup>
 
 </Project>

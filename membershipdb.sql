@@ -2,8 +2,8 @@ create database membershipdb;
 use membershipdb;
 
 create table bacentas (
-bacenta_id int primary key not null auto_increment,
-bacentaname varchar(20),
+bacenta_id int primary key auto_increment,
+bacentaname varchar(40) unique,
 leaderfirstname varchar(20),
 leaderlastname varchar(20));
 
@@ -55,3 +55,4 @@ bacentaname, leaderfirstname, leaderlastname, bacentatype, location, branch) val
 'Neasden', 'Glody', 'Kakese', 'Town', 'Neasden', 'Brunel University'); 
 
 select * from bacentas;
+

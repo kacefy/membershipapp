@@ -25,12 +25,16 @@ namespace membershipapp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
             var myConnectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddRouting(r => r.LowercaseUrls = true);
             services.AddDbContext<MembersDbContext>(options => options.UseMySql(myConnectionString, ServerVersion.AutoDetect(myConnectionString)));
 >>>>>>> Stashed changes
+=======
+            services.AddRouting(r => r.LowercaseUrls = true);
+>>>>>>> ae7c2fd89ece2bc30ef6a419283c7cb6bf6c7771
             services.AddControllersWithViews();
             services.AddControllersWithViews();
         
